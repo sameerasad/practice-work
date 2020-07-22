@@ -22,6 +22,7 @@ import './App.css';
             <br/>
             <br/>
             <button onClick={()=>setDay(!isDay)}>changeColor</button>
+            <h2>this is all about counter app</h2>
         </div>
     )
 }
