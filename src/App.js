@@ -11,7 +11,7 @@ import './App.css';
         <div className={`box ${isDay ? "dayLight" : ""}`}>
             <Message counter={count} />
             <br/>
-            <button onClick={()=>setCount(count+1)}  >Click Me</button>
+            <button onClick={()=>setCount(count+1)} className="button" >Click Me</button>
 
 
             
@@ -21,7 +21,7 @@ import './App.css';
             <button onClick={()=>setCount(count-1)} className="button">Click Me For Decrement</button>
             <br/>
             <br/>
-            <button onClick={()=>setDay(!isDay)}>changeColor</button>
+            <button onClick={()=>setDay(!isDay)} className="button">changeColor</button>
             <h2>this is all about counter app</h2>
               
         </div>
