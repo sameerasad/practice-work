@@ -18,7 +18,7 @@ import './App.css';
             <br/>
             <br/>
 
-            <button onClick={()=>setCount(count-1)}>Click Me For Decrement</button>
+            <button onClick={()=>setCount(count-1)} className="button">Click Me For Decrement</button>
             <br/>
             <br/>
             <button onClick={()=>setDay(!isDay)}>changeColor</button>
