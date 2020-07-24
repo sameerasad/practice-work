@@ -23,9 +23,9 @@ import './App.css';
             <br/>
             <br/>
             <button onClick={()=>setDay(!isDay)} className="button">changeColor</button>
-            <h2>this is all about counter app</h2>
+            <h2  className="lowerheading">this is all about counter app</h2>
               
-            <newComponent />
+            
         </div>
         
     )

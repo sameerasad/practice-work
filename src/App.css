@@ -58,3 +58,12 @@ background-repeat: no-repeat;
 {
     text-decoration: underline;
 }
+
+.lowerheading
+{
+    text-decoration: wavy;
+}
+.lowerheading:hover
+{
+    text-decoration: underline;
+}
