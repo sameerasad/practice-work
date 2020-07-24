@@ -49,3 +49,8 @@ background-image: url(pic1.jpg);
 background-repeat: no-repeat;
 
 }
+
+.message
+{
+    text-decoration: underline;
+}
