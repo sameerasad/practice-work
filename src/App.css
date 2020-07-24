@@ -52,5 +52,9 @@ background-repeat: no-repeat;
 
 .message
 {
+    text-decoration: none;
+}
+.message:hover
+{
     text-decoration: underline;
 }
