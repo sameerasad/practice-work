@@ -1,15 +1,12 @@
-import React, {useState}  from 'react'
-import {Message} from './Message'
-import newComponent from './newComponent';
-import './App.css';
+import React from 'react'
 
-     const App = () => {
-   
+const newComponent = () => {
     const [count, setCount] = useState(0)
     let [isDay, setDay] = useState(true)
-
     return (
-        <div className={`box ${isDay ? "dayLight" : ""}`}>
+
+        
+            <div className={`box ${isDay ? "dayLight" : ""}`}>
             <Message counter={count} />
             <br/>
             <button onClick={()=>setCount(count+1)} className="button" >Click Me</button>
@@ -26,9 +23,9 @@ import './App.css';
             <h2>this is all about counter app</h2>
               
               
+        
         </div>
-        <newComponent />
     )
 }
 
-export default App
+export default newComponent
