@@ -38,6 +38,7 @@ background-color: skyblue;
 }
 body
 {
+background-size: cover;
 background-image: url(pic.jpg);
 background-repeat: no-repeat;
 
