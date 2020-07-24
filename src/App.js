@@ -1,6 +1,6 @@
 import React, {useState}  from 'react'
 import {Message} from './Message'
-import newComponent from './newComponent';
+
 import './App.css';
 
      const App = () => {
