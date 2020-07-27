@@ -19,3 +19,7 @@ sayName()// ans [object Window]
 
 
 if we run this code on node server we get an empty scope "{}"
+
+
+for this now this is enough more than this could cause a confussion so leave it this much for now 
+and we will see it in detail in future.
