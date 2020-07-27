@@ -16,3 +16,6 @@ console.log(this);
 sayName()// ans [object Window]
 
 sayName()// ans [object Window]
+
+
+if we run this code on node server we get an empty scope "{}"
