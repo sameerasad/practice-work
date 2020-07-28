@@ -16,6 +16,15 @@ const hetrogeniusArray =["Pakistan",1,"india",true]
 
 // we store the string number and booolean dataType in above array and it will work as well.
 
+how couuld we access these value
+
+for(let i=0;i<=hetrogeniusArray.length;i++){
+
+console.log(hetrogeniusArray[i]);
+
+
+}
+
 
 
  
