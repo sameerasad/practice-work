@@ -12,7 +12,7 @@ import './App.css';
         <div className={`box ${isDay ? "dayLight" : ""}`}>
             <Message counter={count} />
             <br/>
-            <button onClick={()=>setCount(count+1)} className="button" >Click Me</button>
+            <button onClick={()=>setCount(count+1)}   className="button" >Click Me</button>
 
 
             
